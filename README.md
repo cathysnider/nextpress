@@ -5,8 +5,9 @@ NextPress development
 Run setup.sh in your Web Development folder to create a subfolder instance of Next Press
 
 
+
  |Label | Machine Name | field type | Widget | Number of Values | Other | 
- | --- | --- | --- | --- | --- | --- | --- | --- | 
+ | --- | --- | --- | --- | --- | --- |
  |PERSONAL | group_personal | Horizontal tab | closed/required | 
  |First Name | field_person_first_name | text | Text field | 1 |  | 
  |Last Name | field_person_last_name | text | Text field | 1 |  | 
