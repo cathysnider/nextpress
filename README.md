@@ -34,18 +34,13 @@ Run setup.sh in your Web Development folder to create a subfolder instance of Ne
 
  | Field Display Name | Multivalue | Required | Data Structure | Schema.org Field Name | Express Field Name | Express Data Structure | Notes |
  | :----------------: | :--------: | :------: | :------------: | :-------------------: | :----------------: | :--------------------: | ----- |
- | First Name | N | Y | text | givenName | First Name | text |  | 
- | Last Name | N | Y | text | familyName | Last Name | text |  | 
- | Job Type | Y | N | term reference |  | Job Type | term reference | Vocabulary: Job Type | 
- | Job Title | Y | N | text | jobTitle | Title | text |  | 
- | Department | Y | N | term reference | affiliation | Department | term reference | Vocabulary: Department | 
- | Photo | N | N | image | image | Photo | image |  | 
- | Email | N | N | email | email | Email | email |  | 
- | Phone | N | N | text | telephone | Phone | text |  | 
- | Links | Y | N | link | URL | Links | link | Linkit enabled | 
- | Address | N | N | long text | address | Address | long text |  | 
- | Office Hours | N | N | long text |  | Office Hours | long text |  | 
- | Body | N | N | long text & summary |  | Body | long text & summary |  | 
- | Filter 1 | Y | N | term reference | affiliation | Filter 1 | term reference |  | 
- | Filter 2 | Y | N | term reference | affiliation | Filter 2 | term reference |  | 
- | Filter 3 | Y | N | term reference | affiliation | Filter 3 | term reference |  |
+ |Title | N | Y | text | Content Title | Title | Text | used by pathauto for generating URL | 
+ |Body | N | N | Long text | articleBody |  |  |  | 
+ |Summary | N | N | Text | abstract |  |  |  | 
+ |Date Display | N | Y | list (text) |  -  |  |  | A dropdown to show or hide date. | 
+ |Image: Photo | Y | N | Image | image |  |  |  | 
+ |Image: Thumbnail | N | N | image | image |  |  |  | 
+ |Category | Y | N | Term Reference | keywords |  |  |  | 
+ |Tag | Y | N | Term Reference | keywords |  |  |  | 
+ |Byline | Y | N | Term Reference | author / contributor |  |  |  | 
+ |External URL | N | N | URL/Link |  -  |  |  | takes the place of articleBody |
